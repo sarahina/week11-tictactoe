@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    
+     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Main tag with background as class -->
+    <main class="background">
+        <section class="title">
+            <h1>TIC TAC TOE!</h1>
+        </section>
+
+        <!-- Displaying whose player's turn is it -->
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+
+        <!-- Creating the tiles for the game -->
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+
+        
+        <section class="display announcer hide"></section>
+
+        <section class="controls">
+            <button id="restart">Start New Game</button>
+        </section>
+    </main>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
